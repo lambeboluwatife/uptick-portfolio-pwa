@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #fff;
+  color: #000;
+}
+
+.column {
+  float: left;
+}
+
+.left {
+  position: fixed;
+  width: 20%;
+  height: 100vh;
+}
+
+.right {
+  width: 80%;
+  height: 100vh;
+  margin-left: 20%;
+}
+
+.menu {
+  position: fixed;
+  color: #00ff00;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  display: none;
+}
+
+.menu:hover {
+  color: #fff;
+}
+
+.menu.aboutStyle {
+  color: red;
+}
+
+.menu.aboutStyle:hover {
+  color: #fff;
+}
+
+.menu.skillStyle {
+  color: orangered;
+}
+
+.menu.skillStyle:hover {
+  color: rgb(118, 117, 117);
+}
+
+.sidenav {
+  height: 100vh;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding: 20px;
+  color: #000;
+  background-color: #fff;
+  display: none;
+}
+
+.nav {
+  background-color: #fff;
+  color: #000;
+  padding: 20px;
+}
+
+.nav.aboutStyle,
+.sidenav.aboutStyle {
+  background-color: red;
+  height: 100vh;
+}
+
+.nav.skillStyle,
+.sidenav.skillStyle {
+  background-color: #000;
+  height: 100vh;
+  color: rgb(118, 117, 117);
+}
+
+.nav.portfolioStyle,
+.sidenav.portfolioStyle {
+  background-color: #000;
+  color: #fff;
+  height: 100vh;
+}
+
+.nav h1,
+.sidenav h1 {
+  font-family: "Chokokutai", sans-serif;
+  font-size: 45px;
+  color: #00ff00;
+}
+
+.sidenav h1 {
+  font-size: 30px;
+}
+
+.nav.aboutStyle h1,
+.sidenav.aboutStyle h1 {
+  color: #fff;
+}
+
+.nav.skillStyle h1,
+.sidenav.skillStyle h1 {
+  color: orangered;
+}
+
+.nav strong,
+.sidenav strong {
+  color: #000;
+}
+
+.nav.skillStyle strong,
+.sidenav.skillStyle strong {
+  color: rgb(118, 117, 117);
+}
+
+.nav.portfolioStyle strong,
+.sidenav.portfolioStyle strong {
+  color: #fff;
+}
+
+.nav h6,
+.sidenav h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav ul,
+.sidenav ul {
+  margin-top: 2rem;
+}
+
+.nav ul li,
+.sidenav ul li {
+  list-style-type: none;
+  padding: 1.5rem;
+  font-family: "Teko", sans-serif;
+  font-size: 20px;
+  border-bottom: 1px solid rgb(118, 117, 117);
+}
+
+.sidenav ul li {
+  padding: 1rem;
+}
+
+.nav ul li a,
+.sidenav ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+.nav.aboutStyle ul li a,
+.nav.portfolioStyle ul li a,
+.sidenav.aboutStyle ul li a,
+.sidenav.portfolioStyle ul li a {
+  color: #fff;
+}
+
+.nav.skillStyle ul li a,
+.sidenav.skillStyle ul li a {
+  color: rgb(118, 117, 117);
+}
+
+.nav ul li a:hover {
+  color: #00ff00;
+  cursor: pointer;
+}
+
+.nav.aboutStyle ul li a:hover {
+  color: #000;
+}
+
+.nav.skillStyle ul li a:hover {
+  color: orangered;
+}
+
+.nav .social-links,
+.sidenav .social-links {
+  margin-top: 2rem;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav .social-links .social a,
+.sidenav .social-links .social a {
+  color: #000;
+}
+
+.nav.skillStyle .social-links .social a,
+.sidenav.skillStyle .social-links .social a {
+  color: orangered;
+}
+
+.nav.portfolioStyle .social-links .social a,
+.sidenav.portfolioStyle .social-links .social a {
+  color: #00ff00;
+}
+
+.nav .social-links .social a:hover {
+  color: #00ff00;
+}
+
+.nav.aboutStyle .social-links .social a:hover,
+.nav.portfolioStyle .social-links .social a:hover {
+  color: #fff;
+}
+
+.nav.skillStyle .social-links .social a:hover {
+  color: rgb(118, 117, 117);
+}
+
+.sidenav .btn {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.sidenav button {
+  background-color: #00ff00;
+  font-family: "Montserrat", sans-serif;
+  padding: 0.2rem 0.5rem;
+  width: 5rem;
+  border: 1px solid #00ff00;
+  border-radius: 10px;
+}
+
+.sidenav button.aboutStyle {
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+.sidenav button.skillStyle {
+  background-color: orangered;
+  border: 1px solid orangered;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0;
+  justify-content: center;
+  height: 100%;
+}
+
+.grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.loading {
+  text-align: center;
+}
+
+.loading img {
+  position: absolute;
+  margin-top: 20rem;
+}
