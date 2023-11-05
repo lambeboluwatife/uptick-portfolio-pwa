@@ -29,7 +29,7 @@ export default defineConfig({
         runtimeCaching: [
           {
             urlPattern: ({ url }) => {
-              return url.pathname.startsWith("/assets");
+              return url.pathname.endsWith(".webp");
             },
             handler: "CacheFirst",
             options: {
