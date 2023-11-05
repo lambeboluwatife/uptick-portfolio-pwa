@@ -31,13 +31,13 @@ export default defineConfig({
             urlPattern: ({ url }) => {
               return url.pathname.startsWith("/assets");
             },
-            handler: "CacheFirst" as const,
+            handler: "CacheFirst",
             options: {
               cacheName: "img-cache",
               cacheableResponse: {
-                statuses: [0, 200]
-              }
-            }
+                statuses: [0, 200],
+              },
+            },
           },
         ],
       },
