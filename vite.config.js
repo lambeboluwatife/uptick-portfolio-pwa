@@ -18,7 +18,7 @@ export default defineConfig({
         scope: "/",
         icons: [
           {
-            src: "/Bolu.webp",
+            src: "/public/Bolu-icon.webp",
             sizes: "512x512",
             type: "image/webp",
             purpose: "any maskable",
@@ -29,7 +29,7 @@ export default defineConfig({
         runtimeCaching: [
           {
             urlPattern: ({ url }) => {
-              return url.pathname.startsWith("/assets");
+              return url.pathname.endsWith(".webp");
             },
             handler: "CacheFirst",
             options: {
