@@ -1,5 +1,5 @@
 import { useLocation } from "react-router";
-// import { useSpring, animated } from "@react-spring/web";
+import { useSpring, animated } from "@react-spring/web";
 
 const SideNav = ({ toggleSideNav }) => {
   const fadeIn = useSpring({
@@ -24,7 +24,7 @@ const SideNav = ({ toggleSideNav }) => {
   }
 
   return (
-    <animated.div className={`sidenav ${navStyle}`}>
+    <animated.div className={`sidenav ${navStyle}`} style={fadeIn}>
       <h1>
         L<strong>.</strong>B<strong>.</strong>D
       </h1>
