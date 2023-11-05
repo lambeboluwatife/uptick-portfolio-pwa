@@ -1,0 +1,186 @@
+/* Tablets and under */
+@media all and (max-width: 768px) {
+  .grid,
+  .about .grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .left {
+    width: 25%;
+  }
+
+  .right {
+    width: 75%;
+    margin-left: 25%;
+  }
+
+  .nav {
+    height: 70vh;
+  }
+
+  .contact .contact-details h4 {
+    font-size: 15px;
+  }
+
+  .contact .contact-details .contact-infos {
+    margin-top: 1rem;
+    display: flex;
+  }
+
+  .contact .contact-details .contact-infos .contact-info {
+    padding: 1rem 0;
+  }
+
+  .contact-form {
+    margin-top: 2rem;
+  }
+}
+
+/* Mobile */
+@media all and (max-width: 500px) {
+  .column {
+    float: none;
+  }
+
+  .left {
+    display: none;
+  }
+
+  .right {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .menu {
+    display: block;
+  }
+
+  .sidenav {
+    display: block;
+  }
+
+  .home .heading {
+    margin-top: 10rem;
+    font-size: 30px;
+  }
+
+  .home .heading strong {
+    font-size: 35px;
+  }
+
+  .about .about-content {
+    padding: 20px;
+  }
+
+  .about .about-content h1 {
+    font-size: 40px;
+  }
+
+  .skills .frontend-skills .skills-flex .skill .icon,
+  .skills .backend-skills .skills-flex .skill .icon {
+    font-size: 40px;
+  }
+
+  .portfolio .heading {
+    font-size: 40px;
+  }
+
+  .portfolio h3 {
+    font-size: 15px;
+  }
+
+  .contact .heading {
+    font-size: 30px;
+  }
+
+  .contact .grid {
+    margin-top: 1rem;
+  }
+
+  .contact .grid .contact-details {
+    padding: 0 1rem;
+  }
+
+  .contact .contact-details h4 {
+    font-size: 10px;
+  }
+
+  .contact-info {
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .contact-info .icon {
+    font-size: 30px;
+  }
+
+  .contact .grid .contact-form h3 {
+    font-size: 20px;
+  }
+
+  .contact .grid .contact-form form input,
+  .contact .grid .contact-form form textarea {
+    padding: 10px;
+    width: 22rem;
+  }
+
+  .contact .grid .contact-form form textarea {
+    height: 70px;
+  }
+}
+
+/* Mobile */
+@media all and (max-width: 400px) {
+  .home .heading {
+    font-size: 25px;
+  }
+
+  .home .heading strong {
+    font-size: 30px;
+    margin-bottom: 1rem;
+  }
+
+  .contact-info {
+    font-size: small;
+  }
+
+  .contact-info .icon {
+    font-size: 20px;
+  }
+
+  .contact .grid .contact-form form input,
+  .contact .grid .contact-form form textarea {
+    width: 20rem;
+  }
+
+  .contact .grid .contact-form form textarea {
+    height: 80px;
+  }
+}
+
+/* Mobile */
+@media all and (max-width: 320px) {
+  .about .about-content ul {
+    margin-top: 1.5rem;
+  }
+
+  .skills .backend-skills {
+    margin-top: 2rem;
+  }
+
+  .skills .frontend-skills .skills-flex .skill .icon,
+  .skills .backend-skills .skills-flex .skill .icon {
+    font-size: 30px;
+  }
+
+  .skills .frontend-skills .skills-flex .skill,
+  .skills .backend-skills .skills-flex .skill {
+    padding: 1.5px;
+  }
+
+  .contact .grid .contact-form form input,
+  .contact .grid .contact-form form textarea {
+    width: 18rem;
+  }
+}
