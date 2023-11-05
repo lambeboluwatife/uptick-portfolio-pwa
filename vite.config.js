@@ -8,12 +8,36 @@ export default defineConfig({
     react(),
     VitePWA({
       manifest: {
+        name: "Lambe Boluwatife",
+        short_name: "L.B.D's Portfolio",
+        description: "Lambe Boluwatife's Portfolio",
+        start_url: "/",
+        display: "standalone",
+        background_color: "#ffffff",
+        lang: "en",
+        scope: "/",
         icons: [
           {
             src: "/Bolu.webp",
             sizes: "512x512",
             type: "image/webp",
             purpose: "any maskable",
+          },
+        ],
+      },
+      workbox: {
+        runtimeCaching: [
+          {
+            urlPattern: ({ url }) => {
+              return url.pathname.startsWith("/assets");
+            },
+            handler: "CacheFirst",
+            options: {
+              cacheName: "img-cache",
+              cacheableResponse: {
+                statuses: [0, 200],
+              },
+            },
           },
         ],
       },
