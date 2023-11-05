@@ -18,7 +18,7 @@ export default defineConfig({
         scope: "/",
         icons: [
           {
-            src: "/public/Bolu-icon.webp",
+            src: "/Bolu-icon.webp",
             sizes: "512x512",
             type: "image/webp",
             purpose: "any maskable",
