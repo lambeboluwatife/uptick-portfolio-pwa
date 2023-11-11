@@ -18,8 +18,56 @@ export default defineConfig({
         scope: "/",
         icons: [
           {
-            src: "/Bolu-icon.webp",
+            src: "https://media.licdn.com/dms/image/D4D03AQEpBqyhutdOWg/profile-displayphoto-shrink_800_800/0/1697096605029?e=2147483647&v=beta&t=4bO8fOamzqBml550TRYvEc5h5t9VGjCe9mfm5DKryyE",
             sizes: "512x512",
+            type: "image/webp",
+            purpose: "any maskable",
+          },
+          {
+            src: "https://media.licdn.com/dms/image/D4D03AQEpBqyhutdOWg/profile-displayphoto-shrink_800_800/0/1697096605029?e=2147483647&v=beta&t=4bO8fOamzqBml550TRYvEc5h5t9VGjCe9mfm5DKryyE",
+            sizes: "384x384",
+            type: "image/webp",
+            purpose: "any maskable",
+          },
+          {
+            src: "https://media.licdn.com/dms/image/D4D03AQEpBqyhutdOWg/profile-displayphoto-shrink_800_800/0/1697096605029?e=2147483647&v=beta&t=4bO8fOamzqBml550TRYvEc5h5t9VGjCe9mfm5DKryyE",
+            sizes: "256x256",
+            type: "image/webp",
+            purpose: "any maskable",
+          },
+          {
+            src: "https://media.licdn.com/dms/image/D4D03AQEpBqyhutdOWg/profile-displayphoto-shrink_800_800/0/1697096605029?e=2147483647&v=beta&t=4bO8fOamzqBml550TRYvEc5h5t9VGjCe9mfm5DKryyE",
+            sizes: "192x192",
+            type: "image/webp",
+            purpose: "any maskable",
+          },
+          {
+            src: "https://media.licdn.com/dms/image/D4D03AQEpBqyhutdOWg/profile-displayphoto-shrink_800_800/0/1697096605029?e=2147483647&v=beta&t=4bO8fOamzqBml550TRYvEc5h5t9VGjCe9mfm5DKryyE",
+            sizes: "168x168",
+            type: "image/webp",
+            purpose: "any maskable",
+          },
+          {
+            src: "https://media.licdn.com/dms/image/D4D03AQEpBqyhutdOWg/profile-displayphoto-shrink_800_800/0/1697096605029?e=2147483647&v=beta&t=4bO8fOamzqBml550TRYvEc5h5t9VGjCe9mfm5DKryyE",
+            sizes: "144x144",
+            type: "image/webp",
+            purpose: "any maskable",
+          },
+          {
+            src: "https://media.licdn.com/dms/image/D4D03AQEpBqyhutdOWg/profile-displayphoto-shrink_800_800/0/1697096605029?e=2147483647&v=beta&t=4bO8fOamzqBml550TRYvEc5h5t9VGjCe9mfm5DKryyE",
+            sizes: "72x72",
+            type: "image/webp",
+            purpose: "any maskable",
+          },
+          {
+            src: "https://media.licdn.com/dms/image/D4D03AQEpBqyhutdOWg/profile-displayphoto-shrink_800_800/0/1697096605029?e=2147483647&v=beta&t=4bO8fOamzqBml550TRYvEc5h5t9VGjCe9mfm5DKryyE",
+            sizes: "48x48",
+            type: "image/webp",
+            purpose: "any maskable",
+          },
+          {
+            src: "https://media.licdn.com/dms/image/D4D03AQEpBqyhutdOWg/profile-displayphoto-shrink_800_800/0/1697096605029?e=2147483647&v=beta&t=4bO8fOamzqBml550TRYvEc5h5t9VGjCe9mfm5DKryyE",
+            sizes: "20x20",
             type: "image/webp",
             purpose: "any maskable",
           },
