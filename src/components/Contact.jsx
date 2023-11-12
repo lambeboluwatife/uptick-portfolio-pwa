@@ -1,8 +1,12 @@
+import { useEffect } from "react";
 import { faAddressCard, faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Contact = () => {
+  useEffect(() => {
+    document.title = "Contact Lambe Boluwatife";
+  }, []);
   return (
     <>
       <div className="contact">

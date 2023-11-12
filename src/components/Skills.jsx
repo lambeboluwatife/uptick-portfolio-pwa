@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHtml5,
@@ -17,7 +18,9 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 const Skills = () => {
-  console.log("Skills is loading");
+  useEffect(() => {
+    document.title = "Lambe Boluwatife's Skills";
+  }, []);
 
   return (
     <div className="grid">
