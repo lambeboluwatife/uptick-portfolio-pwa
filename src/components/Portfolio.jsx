@@ -1,7 +1,10 @@
+import { useEffect } from "react";
 import portfolios from "../data/portfolio";
 
 const Portfolio = () => {
-  console.log("Portfolio is loading");
+  useEffect(() => {
+    document.title = "Lambe Boluwatife's Portfolio";
+  }, []);
 
   return (
     <div className="portfolio">
