@@ -128,7 +128,7 @@ const Skills = () => {
             <div className="work-info">
               <h4>ENOVERLAB</h4>
               <h2>LEAD FRONTEND ENGINEER</h2>
-              <h6>August, 2023</h6>
+              <h6>August, 2023 - Nov. 2023</h6>
               <h6>Lagos, NIgeria</h6>
             </div>
           </div>
