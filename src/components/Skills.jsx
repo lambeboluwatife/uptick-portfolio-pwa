@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHtml5,
@@ -17,7 +18,9 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 const Skills = () => {
-  console.log("Skills is loading");
+  useEffect(() => {
+    document.title = "Lambe Boluwatife's Skills";
+  }, []);
 
   return (
     <div className="grid">
@@ -125,7 +128,7 @@ const Skills = () => {
             <div className="work-info">
               <h4>ENOVERLAB</h4>
               <h2>LEAD FRONTEND ENGINEER</h2>
-              <h6>August, 2023</h6>
+              <h6>August, 2023 - Nov. 2023</h6>
               <h6>Lagos, NIgeria</h6>
             </div>
           </div>

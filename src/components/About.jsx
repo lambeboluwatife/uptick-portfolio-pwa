@@ -1,6 +1,11 @@
+import { useEffect } from "react";
+
 import Resume from "../assets/BoluwatifeLambe_2.pdf";
 
 const About = () => {
+  useEffect(() => {
+    document.title = "About Lambe Boluwatife";
+  }, []);
   return (
     <div className="about">
       <div className="grid">
