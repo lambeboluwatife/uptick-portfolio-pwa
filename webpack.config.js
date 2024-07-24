@@ -31,7 +31,7 @@ module.exports = {
           {
             loader: "file-loader",
             options: {
-              name: "pdfs/[name].[ext]",
+              name: "assets/[name].[ext]",
             },
           },
         ],
@@ -43,8 +43,11 @@ module.exports = {
             loader: "file-loader",
             options: {
               name: "images/[name].[ext]",
+              useRelativePath: true,
+              emitFile: false,
             },
           },
+          { loader: "webp-loader" },
         ],
       },
     ],

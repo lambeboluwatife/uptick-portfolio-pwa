@@ -1,26 +1,26 @@
 import weather from "../images/weather.webp";
-import finalSpace from "../images/finalSpace.webp";
-import LBDmovies from "../images/LBDmovies.webp";
 import gkai from "../images/gkai.webp";
 import camp from "../images/camp.webp";
 import eventrite from "../images/show.webp";
+import lbdflix from "../images/lbdflix.webp";
+import hirewave from "../images/hirewave.webp";
 
 const portfolios = [
   {
-    name: "Final Space",
-    skills: "HTML5 | CSS | JavaScript | API",
-    image: finalSpace,
-    desc: "This website contains everything to know about final space, from characters, locations and quotes.",
-    live: "https://finalspaceapi.netlify.app/",
-    source: "https://github.com/lambeboluwatife/FinalSpace",
+    name: "LBDflix",
+    skills: "ReactJS | NextJS | CSS | JavaScript | API | Open Source",
+    image: lbdflix,
+    desc: "LBDflix is a dynamic movie application that gives a variety of movies, movies details, and trailers. It is packed with movie collections for every movie lover and it also recommends movies to users. It is an open source project and open to developers, designers, writers, movie enthusiasts to collaborate and learn.",
+    live: "https://lbdflix.vercel.app/",
+    source: "https://github.com/lambeboluwatife/lbdflix",
     id: 1,
   },
   {
-    name: "LBDmovies",
-    skills: "HTML5 | CSS | JavaScript | API",
-    image: LBDmovies,
-    desc: "Browse through trending and latest movies and Tv shows.",
-    live: "https://lbdmovies.netlify.app/",
+    name: "Hirewave",
+    skills: "ReactJS | CSS | JavaScript | DexisJS",
+    image: hirewave,
+    desc: "Hirewave is an app that connect you with the best emerging talent, helping you build a dynamic team that drives growth and innovation.",
+    live: "https://www.hirewave.net/",
     source: "https://github.com/lambeboluwatife/LBDmovies",
     id: 2,
   },

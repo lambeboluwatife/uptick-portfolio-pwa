@@ -13,7 +13,7 @@ export default defineConfig({
         description: "Lambe Boluwatife's Portfolio",
         start_url: "/",
         display: "standalone",
-        background_color: "#ffffff",
+        background_color: "#00ff00",
         lang: "en",
         scope: "/",
         icons: [
